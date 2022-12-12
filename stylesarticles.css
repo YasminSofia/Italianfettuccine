@@ -1,0 +1,87 @@
+/*----------------------------Pinkpasta-siden-------------------------------*/
+.overskrift h1{
+    font-size: 70pt;
+    color: #967147;
+    font-family: 'Arima Madurai', cursive;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.opskrift{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+.ingredienser{
+    width: 50%;
+    background-color: #c2d6f2;
+    margin: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+}
+
+.billedeafret{
+    width: 50%;
+}
+
+.billedeafret img{
+    margin: 30px;
+}
+
+.ingredienser h2{
+    font-size: 25pt;
+    font-family: myriad-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 45px;
+}
+
+
+.ingredienser p{
+    font-size: 16pt;
+    font-family: myriad-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 45px;
+}
+
+.tilberedning{
+    margin-left: 60px;
+    margin-bottom: 40px;
+}
+
+.tilberedning h2{
+    font-size: 30pt;
+    font-family: myriad-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 45px;
+    margin-bottom: 30px;
+}
+
+.tilberedning p{
+    font-size: 16pt;
+    font-family: myriad-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 40px;
+}
+
+/*----------------------------Ompastaen-siden-------------------------------*/
+.indledning p{
+    font-size: 22pt;
+    font-family: myriad-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 40px;
+    width: auto;
+    margin: auto;
+}
+
+.indledning img{
+    align-items: center;
+    margin-left: 210px;
+}

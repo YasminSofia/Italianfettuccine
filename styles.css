@@ -1,0 +1,192 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/*----------------------------HEADER-------------------------------*/
+
+/*headerens farve og størrelse*/
+header
+{
+    background-color: #cd8553;
+    height: 180px;
+    
+}
+
+header div{
+    margin-top: -10px;
+}
+
+/*menupunkternes placering*/
+.menu
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*menupunkternes layout*/
+.menu a
+{
+    color: white;
+    font-size: 24pt;
+    font-family: 'Arima Madurai', cursive;
+    padding-top: 130px;
+}
+
+.menu a:hover 
+{
+    text-decoration: underline;
+}
+
+/*----------------------------MAIN-------------------------------*/
+
+/*flexboxen i første sektion i main*/
+.reklame{
+    display: flex;
+}
+
+/*tekstens placering og udseende*/
+.reklametekst{
+    margin-top: 140px;
+    margin-bottom: auto;
+    margin-left: -25px;
+    font-size: 20pt;
+    font-family: myriad-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 45px;
+}
+
+/*knappens placering*/
+.reklame div a img{
+    margin-top: -30px;
+   margin-right: 25%;
+   margin-left: 30%;
+}
+
+.knap a img:hover{
+    width: 183px;
+    height: 183px;
+
+}
+
+.konkurrence{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #9bc1f4;
+}
+
+.konkurrence div{
+    margin-right: 140px;
+}
+
+.konkurrence h1{
+    font-size: 60pt;
+    color: white;
+    font-family: 'Arima Madurai', cursive;
+    text-align: center;
+    margin: 150px;
+}
+
+.konkurrence h2{
+    font-size: 26pt;
+    color: white;
+    font-family: 'Arima Madurai', cursive;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 70px;
+}
+
+.konkurrence h3{
+    font-size: 18pt;
+    color: white;
+    font-family: 'Arima Madurai', cursive;
+    text-align: center;
+    
+}
+
+#indtastmail
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mailbox1
+{
+    padding: 12px;
+    font-size: 15px;
+    transition: 0.6s;
+    font-size: 15pt;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+
+.sendbutton1
+{
+    background-color: white;
+    font-size: 15pt;
+    padding: 12px;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+    text-align: center;
+    color: black;
+    border: none;
+    outline: none;
+
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+.cards img{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.cards :hover{
+    filter: brightness(95%);
+    transition: 300ms;
+}
+
+
+/*---------------------FOOTER------------------------------*/
+
+/*footerens farve og størrelse*/
+footer
+{
+    background-color: #cd8553;
+    height: 120px;
+    display: flex;
+}
+
+footer p{
+    font-size: 16pt;
+    font-family: myriad-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-align: right;
+    margin-top: 45px;
+}
+
+.semere{
+    width: 92%;
+}
+
+footer a img{
+    margin-top: 35px;
+    margin-left: 20px;
+}
