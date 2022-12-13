@@ -1,6 +1,6 @@
 /*----------------------------Pinkpasta-siden-------------------------------*/
 .overskrift h1{
-    font-size: 70pt;
+    font-size: 65pt;
     color: #967147;
     font-family: 'Arima Madurai', cursive;
     text-align: center;
@@ -71,17 +71,173 @@
 }
 
 /*----------------------------Ompastaen-siden-------------------------------*/
-.indledning p{
+
+.indpakning{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.overskrift p{
     font-size: 22pt;
     font-family: myriad-pro, sans-serif;
     font-weight: 400;
     font-style: normal;
     line-height: 40px;
-    width: auto;
-    margin: auto;
+     display: flex;
+    justify-content: center;
+}
+ 
+.indhold{
+    display: flex;
 }
 
-.indledning img{
-    align-items: center;
-    margin-left: 210px;
+.indhold img{
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
+
+.indhold p{
+    font-size: 22pt;
+    font-family: myriad-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 70px;
+    margin: 30px;
+    margin-top: 15px;
+    
+}
+
+.forhandler h2{
+    font-size: 30pt;
+    font-family: myriad-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #609acf;
+    text-align: center;
+    margin: 20px;
+}
+
+#credit{
+    font-size: 14pt;
+    font-family: myriad-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #949494;
+    text-align: right;
+    margin: 20px;
+}
+
+/*----------------------------Vælg-opskrift-siden-------------------------------*/
+.opskrifter{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.opskrifter :hover{
+    filter: brightness(95%);
+    transition: 300ms;
+}
+
+.valg h2{
+    font-size: 30pt;
+    font-family: 'Arima Madurai', cursive;
+    color: #609acf;
+    margin: 30px;
+}
+
+
+/*----------------------------Urtekram-siden-------------------------------*/
+
+.info, .mereinfo{
+    display: flex;
+}
+
+.tekst{
+    width: 50%;
+    margin: 50px;
+}
+
+.groensager{
+    width: 50%;
+    margin: 50px;
+    justify-content: center;
+}
+
+.urtekram {
+    width: 50%;
+    margin: 50px;
+    margin-left: 150px;
+    justify-content: center;
+}
+
+.info p, .mereinfo p{
+    font-size: 22pt;
+    font-family: myriad-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 60px;
+    margin: 30px;
+    margin-top: 15px;
+    
+}
+
+.info h2, .mereinfo h2{
+    font-size: 30pt;
+    font-family: 'Arima Madurai', cursive;
+    color: #6ea06f;
+    margin-left: 30px;
+
+}
+
+.mereinfo p, .mereinfo h2{
+    margin-left: -30px;
+}
+
+/*----------------------------Konkurrence-siden-------------------------------*/
+
+.konkurrencen{
+    background-color: #9bc1f4;
+}
+
+.konkurrencen h1{
+    font-size: 80pt;
+    color: white;
+    font-family: 'Arima Madurai', cursive;
+    text-align: center;
+}
+
+.konkurrencen h2{
+    font-size: 26pt;
+    color: white;
+    font-family: 'Arima Madurai', cursive;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+
+.konkurrencen h3{
+    font-size: 18pt;
+    color: white;
+    font-family: 'Arima Madurai', cursive;
+    text-align: center;
+}
+
+.konkurrencen p{
+    font-size: 22pt;
+    color: white;
+    font-family: 'Arima Madurai', cursive;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
