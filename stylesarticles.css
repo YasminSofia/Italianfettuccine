@@ -1,4 +1,6 @@
 /*----------------------------Pinkpasta-siden-------------------------------*/
+
+/*overskriftens layout*/
 .overskrift h1{
     font-size: 65pt;
     color: #967147;
@@ -7,6 +9,7 @@
     margin-top: 30px;
 }
 
+/*flexbox mellem ingrediensboks og billede*/
 .opskrift{
     display: flex;
     width: 100%;
@@ -14,6 +17,7 @@
     gap: 15px;
 }
 
+/*ingrediensboksens udseende*/
 .ingredienser{
     width: 50%;
     background-color: #c2d6f2;
@@ -23,14 +27,17 @@
     padding-top: 5px;
 }
 
+/*billedet skal fylde 50% af flexboxen*/
 .billedeafret{
     width: 50%;
 }
 
+/*white space rundt om billedet*/
 .billedeafret img{
     margin: 30px;
 }
 
+/*Layout på "ingredienser" overskriften*/
 .ingredienser h2{
     font-size: 25pt;
     font-family: myriad-pro, sans-serif;
@@ -39,7 +46,7 @@
     line-height: 45px;
 }
 
-
+/*brødtekstens layout*/
 .ingredienser p{
     font-size: 16pt;
     font-family: myriad-pro, sans-serif;
@@ -48,11 +55,13 @@
     line-height: 45px;
 }
 
+/*white space under afsnittet "tilberedning*/
 .tilberedning{
     margin-left: 60px;
     margin-bottom: 40px;
 }
 
+/*underoverskriftens layout*/
 .tilberedning h2{
     font-size: 30pt;
     font-family: myriad-pro, sans-serif;
@@ -62,6 +71,7 @@
     margin-bottom: 30px;
 }
 
+/*layout på brødtekst*/
 .tilberedning p{
     font-size: 16pt;
     font-family: myriad-pro, sans-serif;
@@ -72,12 +82,14 @@
 
 /*----------------------------Ompastaen-siden-------------------------------*/
 
+/*placeringen af billedet*/
 .indpakning{
     display: flex;
     justify-content: center;
     margin: 20px;
 }
 
+/*indledningens layout*/
 .overskrift p{
     font-size: 22pt;
     font-family: myriad-pro, sans-serif;
@@ -88,10 +100,12 @@
     justify-content: center;
 }
  
+/*flexboxen under billedet*/
 .indhold{
     display: flex;
 }
 
+/*billederne i flexboxens placering*/
 .indhold img{
     margin-left: 50px;
     margin-right: 20px;
@@ -99,6 +113,7 @@
     margin-bottom: 50px;
 }
 
+/*brødtekstens layout*/
 .indhold p{
     font-size: 22pt;
     font-family: myriad-pro, sans-serif;
@@ -110,6 +125,7 @@
     
 }
 
+/*Layoutet på den blå tekst nederst*/
 .forhandler h2{
     font-size: 30pt;
     font-family: myriad-pro, sans-serif;
@@ -120,6 +136,7 @@
     margin: 20px;
 }
 
+/*layout på "credit" teksten*/
 #credit{
     font-size: 14pt;
     font-family: myriad-pro, sans-serif;
@@ -131,6 +148,8 @@
 }
 
 /*----------------------------Vælg-opskrift-siden-------------------------------*/
+
+/*flexboxens ved opskrifts cards*/
 .opskrifter{
     display: flex;
     justify-content: space-evenly;
@@ -143,6 +162,7 @@
     transition: 300ms;
 }
 
+/*layout til overskriften på siden*/
 .valg h2{
     font-size: 30pt;
     font-family: 'Arima Madurai', cursive;
@@ -153,21 +173,25 @@
 
 /*----------------------------Urtekram-siden-------------------------------*/
 
+/* de to flexboxe på siden*/
 .info, .mereinfo{
     display: flex;
 }
 
+/*teksten i flexboxen skal fylde 50% og have white space*/
 .tekst{
     width: 50%;
     margin: 50px;
 }
 
+/*billedet i flexboxen skal fylde 50% og have white space*/
 .groensager{
     width: 50%;
     margin: 50px;
     justify-content: center;
 }
 
+/* logobilledets placering*/
 .urtekram {
     width: 50%;
     margin: 50px;
@@ -175,6 +199,7 @@
     justify-content: center;
 }
 
+/*brødtekst layout*/
 .info p, .mereinfo p{
     font-size: 22pt;
     font-family: myriad-pro, sans-serif;
@@ -186,6 +211,7 @@
     
 }
 
+/*underoverskriftens layout*/
 .info h2, .mereinfo h2{
     font-size: 30pt;
     font-family: 'Arima Madurai', cursive;
@@ -194,16 +220,19 @@
 
 }
 
+/*placering af tekst*/
 .mereinfo p, .mereinfo h2{
     margin-left: -30px;
 }
 
 /*----------------------------Konkurrence-siden-------------------------------*/
 
+/*farven på siden*/
 .konkurrencen{
     background-color: #9bc1f4;
 }
 
+/*typografiernes layout og placering*/
 .konkurrencen h1{
     font-size: 80pt;
     color: white;
@@ -235,6 +264,7 @@
     margin-bottom: 50px;
 }
 
+/*flexboxens på siden*/
 .flex{
     display: flex;
     justify-content: space-evenly;

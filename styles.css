@@ -67,12 +67,14 @@ header div{
    margin-left: 30%;
 }
 
+
 .knap a img:hover{
     width: 183px;
     height: 183px;
 
 }
 
+/*konkurrence afsnittet*/
 .konkurrence{
     display: flex;
     justify-content: space-evenly;
@@ -83,6 +85,7 @@ header div{
     margin-right: 140px;
 }
 
+/*typografiens layout*/
 .konkurrence h1{
     font-size: 60pt;
     color: white;
@@ -108,6 +111,7 @@ header div{
     
 }
 
+/*mailboksens layout og placering*/
 #indtastmail
 {
     margin-top: 20px;
@@ -146,6 +150,7 @@ header div{
 
 }
 
+/*placeringen på cards*/
 .cards{
     display: flex;
     justify-content: center;
@@ -172,6 +177,7 @@ footer
     display: flex;
 }
 
+/*tekstens layout*/
 footer p{
     font-size: 16pt;
     font-family: myriad-pro, sans-serif;
@@ -182,6 +188,7 @@ footer p{
     margin-top: 45px;
 }
 
+/*placering af tekst og ikon*/
 .semere{
     width: 92%;
 }
