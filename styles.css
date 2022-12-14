@@ -31,7 +31,7 @@ header div{
 .menu a
 {
     color: white;
-    font-size: 24pt;
+    font-size: 2.5vw;
     font-family: 'Arima Madurai', cursive;
     padding-top: 130px;
 }
@@ -40,6 +40,19 @@ header div{
 {
     text-decoration: underline;
 }
+
+
+/*--------------------------------------------------------------------*/
+/*LAPTOP RESPONSIVE*/
+@media screen and (min-width: 768px)
+{
+    #headerlogomobil, #navMobile{
+        display: none;
+    }
+
+}
+/*--------------------------------------------------------------------*/
+
 
 /*----------------------------MAIN-------------------------------*/
 
@@ -196,4 +209,90 @@ footer p{
 footer a img{
     margin-top: 35px;
     margin-left: 20px;
+}
+
+/*---------------------MOBIL RESPONSIVE------------------------------*/
+
+
+/*MOBIL RESPONSIVE*/
+@media only screen and (max-width: 767px)
+{
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    header
+    {
+        display: flex;
+        justify-content: space-between;
+        height: 100px;
+    }
+
+    .menu
+    {
+        display:none; 
+    }
+
+   #navMobile
+   {
+        display: flex;
+        justify-content:right;
+        padding-right: 20px;
+        margin-top: -78px;
+        
+   }
+    #headerlogomobil 
+    { 
+        margin-left: 10px;
+        width: 100%;
+        
+
+    }  
+/*---------------Reklame-billede-afsnit-----------------------*/
+
+.reklame{
+    flex-direction: column;
+
+}
+
+.reklame img{
+    max-width: 100%;
+}
+
+.reklametekst{
+    margin: auto;
+}
+/*---------------Konkurrence-afsnit-----------------------*/
+
+.konkurrence{
+    flex-direction: column;
+    height: 600px;
+    justify-content: center; 
+    
+}
+
+.konkurrence div{
+    margin: 0px;
+}
+
+.konkurrence h1{
+    font-size: 10vw;
+    margin: 0px;
+    
+}
+.konkurrence h2{
+    font-size: 5vw;
+}
+
+/*---------------Cards-afsnit-----------------------*/
+
+.cards{
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards img{
+    max-width: 100%;
+}
+
 }

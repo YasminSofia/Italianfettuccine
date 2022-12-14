@@ -271,3 +271,82 @@
     
 }
 
+/*---------------------MOBIL RESPONSIVE------------------------------*/
+
+
+/*MOBIL RESPONSIVE*/
+@media only screen and (max-width: 767px)
+{
+    /*---------------Ompastaen-siden-----------------------*/
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .overskrift h1{
+        font-size: 10vw;
+    }
+
+    .overskrift p{
+        font-size: 3vw;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    .indpakning{
+        flex-direction: column;
+        max-width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .indhold{
+        flex-direction: column;
+        
+    }
+
+    .indhold img{
+        max-width: 100%;
+        margin: 0px;
+
+    }
+
+    .indhold p{
+        font-size: 3vw;
+        margin-top: 40px;
+        line-height: 40px;
+        
+    }
+
+    .forhandler h2{
+        font-size: 3.5vw;
+        text-align: left;
+    }
+
+/*---------------Urtekram-siden-----------------------*/
+
+.info, .mereinfo{
+    flex-direction: column;
+}
+
+.groensager, .urtekram{
+    max-width: 100%;
+    margin: 0px;
+
+}
+
+.tekst{
+    width: 100%;
+    margin: 0px;
+}
+
+.info h2, .mereinfo h2{
+    margin: 0px;
+}
+
+.info p, .mereinfo p{
+    line-height: 60px;
+    margin: 0px;
+    max-width: 100%;
+}
+
+}
