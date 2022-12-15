@@ -137,7 +137,7 @@
 }
 
 /*layout på "credit" teksten*/
-#credit{
+#creditpc{
     font-size: 14pt;
     font-family: myriad-pro, sans-serif;
     font-weight: 400;
@@ -271,6 +271,20 @@
     
 }
 
+
+/*--------------------------------------------------------------------*/
+/*LAPTOP RESPONSIVE*/
+@media screen and (min-width: 768px)
+{
+    .afsnitmobil, .groensagermobil, #creditmobil{
+        display: none;
+    }
+
+}
+/*--------------------------------------------------------------------*/
+
+
+
 /*---------------------MOBIL RESPONSIVE------------------------------*/
 
 
@@ -301,13 +315,12 @@
 
     .indhold{
         flex-direction: column;
-        
+       
     }
 
     .indhold img{
-        max-width: 100%;
-        margin: 0px;
-
+        max-width: 80%;
+        
     }
 
     .indhold p{
@@ -324,29 +337,155 @@
 
 /*---------------Urtekram-siden-----------------------*/
 
-.info, .mereinfo{
-    flex-direction: column;
-}
+    .info{
+        flex-direction: column;
+    }
 
-.groensager, .urtekram{
-    max-width: 100%;
-    margin: 0px;
+    .groensagermobil, .urtekrammobil{
+        max-width: 100%;
+        margin: auto;
+        
+    }
 
-}
 
-.tekst{
-    width: 100%;
-    margin: 0px;
-}
+    .tekst{
+        width: 100%;
+        margin: 0px;
+    }
 
-.info h2, .mereinfo h2{
-    margin: 0px;
-}
+    .info h2, .afsnitmobil h2{
+        font-size: 5vw;
+        margin: 0px;
+    }
 
-.info p, .mereinfo p{
-    line-height: 60px;
-    margin: 0px;
-    max-width: 100%;
-}
+    .info p, .afsnitmobil p{
+        font-size: 3vw;
+        line-height: 60px;
+        margin: 0px;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .mereinfo, .groensager{
+        display: none;
+    }
+
+    .afsnitmobil{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*brødtekst layout*/
+    .afsnitmobil p{
+        font-size: 3vw;
+        font-family: myriad-pro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    /*underoverskriftens layout*/
+    .afsnitmobil h2{
+        font-size: 5vw;
+        font-family: 'Arima Madurai', cursive;
+        color: #6ea06f;
+        margin-top: 30px;
+    }
+
+    /*layout på "creditmobil" teksten*/
+    #creditmobil{
+        font-size: 2.5vw;
+        font-family: myriad-pro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #949494;
+        text-align: right;
+        margin: 20px;
+    }
+
+    #creditpc{
+        display: none;
+    }
+
+    /*---------------Opskrfiter-siden-----------------------*/
+    .opskrifter{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .opskrifter img{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    /*---------------Konkurrence-siden-----------------------*/
+
+    .konkurrencen h1{
+        font-size: 12vw;
+    }
+
+    .konkurrencen p{
+        font-size: 4vw;
+        margin: 0px;
+    }
+
+    .konkurrencen h2{
+        font-size: 5vw;
+    }
+
+    .flex{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flex img{
+        max-width: 100%;
+    }
+
+    .konkurrencen #indtastmail{
+        margin-bottom: 100px;
+    }
+
+    /*---------------Pinkpasta-siden-----------------------*/
+
+    .opskrift{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ingredienser{
+        width: 90%;
+        margin: auto;
+    }
+
+
+    .billedeafret img{
+        max-width: 100%;
+        margin: auto;
+    }
+
+    /*Layout på "ingredienser" overskriften*/
+    .ingredienser h2{
+        font-size: 5vw;
+    }
+
+    /*brødtekstens layout*/
+    .ingredienser p{
+        font-size: 3vw;
+        line-height: 35px;
+    }
+
+    /*underoverskriftens layout*/
+    .tilberedning h2{
+        font-size: 5vw;
+        line-height: 40px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    /*layout på brødtekst*/
+    .tilberedning p{
+        font-size: 3vw;
+        margin-right: 60px;
+    }
 
 }
