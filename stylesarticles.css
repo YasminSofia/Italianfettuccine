@@ -275,7 +275,8 @@
 /*--------------------------------------------------------------------*/
 /*LAPTOP RESPONSIVE*/
 @media screen and (min-width: 768px)
-{
+{   
+    /*placeringen på mobil størrelse er ikke den samme som på computer, derfor skal dette ikke vises på computer*/
     .afsnitmobil, .groensagermobil, #creditmobil{
         display: none;
     }
@@ -297,6 +298,7 @@
         padding: 0;
     }
 
+    /*tekstens størrelse skal følge enhedens størrelse*/
     .overskrift h1{
         font-size: 10vw;
     }
@@ -307,22 +309,26 @@
         margin-right: 3px;
     }
 
+    /*billedet skal være i column i midten, og må max fylde 100%*/
     .indpakning{
         flex-direction: column;
         max-width: 100%;
         margin-bottom: 60px;
     }
 
+    /*skal være i column*/
     .indhold{
         flex-direction: column;
        
     }
 
+    /*der skal være white space rundt om billederne*/
     .indhold img{
         max-width: 80%;
         
     }
 
+     /*tekstens størrelse skal følge enhedens størrelse*/
     .indhold p{
         font-size: 3vw;
         margin-top: 40px;
@@ -337,10 +343,12 @@
 
 /*---------------Urtekram-siden-----------------------*/
 
+    /*skal være i column*/
     .info{
         flex-direction: column;
     }
 
+    /*skal være i midten og må kun fylde 100%*/
     .groensagermobil, .urtekrammobil{
         max-width: 100%;
         margin: auto;
@@ -353,6 +361,7 @@
         margin: 0px;
     }
 
+     /*tekstens størrelse skal følge enhedens størrelse*/
     .info h2, .afsnitmobil h2{
         font-size: 5vw;
         margin: 0px;
@@ -366,10 +375,12 @@
         margin-bottom: 30px;
     }
 
+    /*dette afsnit fra laptop skal ikke vises på telefon*/
     .mereinfo, .groensager{
         display: none;
     }
 
+    /*skal være i column*/
     .afsnitmobil{
         display: flex;
         flex-direction: column;
@@ -402,16 +413,20 @@
         margin: 20px;
     }
 
+    /*placerigen af credit på laptop, skal ikke vises på telefon*/
     #creditpc{
         display: none;
     }
 
-    /*---------------Opskrfiter-siden-----------------------*/
+    /*---------------Opskrifter-siden-----------------------*/
+
+    /*skal være i column og i midten*/
     .opskrifter{
         flex-direction: column;
         align-items: center;
     }
 
+    /*white space mellem billederne*/
     .opskrifter img{
         margin-top: 20px;
         margin-bottom: 20px;
@@ -419,6 +434,7 @@
 
     /*---------------Konkurrence-siden-----------------------*/
 
+    /*tekstens størrelse skal følge enhedens størrelse*/
     .konkurrencen h1{
         font-size: 12vw;
     }
@@ -432,32 +448,37 @@
         font-size: 5vw;
     }
 
+    /*skal være i column og i midten*/
     .flex{
         flex-direction: column;
         align-items: center;
     }
 
+    /*må max fylde 100%*/
     .flex img{
         max-width: 100%;
     }
 
+    /*white space*/
     .konkurrencen #indtastmail{
         margin-bottom: 100px;
     }
 
     /*---------------Pinkpasta-siden-----------------------*/
 
+    /*skal være i column og i midten*/
     .opskrift{
         flex-direction: column;
         align-items: center;
     }
 
+    /*white space*/
     .ingredienser{
         width: 90%;
         margin: auto;
     }
 
-
+    /*billedet må max fylde 100% og skal sidde i midten*/
     .billedeafret img{
         max-width: 100%;
         margin: auto;

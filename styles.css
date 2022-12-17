@@ -36,6 +36,7 @@ header div{
     padding-top: 130px;
 }
 
+/*menupunkterne bliver understreget, når du kører musen over*/
 .menu a:hover 
 {
     text-decoration: underline;
@@ -49,6 +50,7 @@ header div{
 /*LAPTOP RESPONSIVE*/
 @media screen and (min-width: 768px)
 {
+    /*mobilmenuen skal ikke være der på computer størrelsen*/
     #headerlogomobil, #navMobile{
         display: none;
     }
@@ -83,7 +85,7 @@ header div{
    margin-left: 30%;
 }
 
-
+/* læs mere knappen bliver større, når musen kører hen over den*/
 .knap a img:hover{
     width: 183px;
     height: 183px;
@@ -177,6 +179,7 @@ header div{
     margin-bottom: 20px;
 }
 
+/*der kommer skygge over billederne ved cards, når du kører musen over*/
 .cards :hover{
     filter: brightness(95%);
     transition: 300ms;
@@ -224,6 +227,8 @@ footer a img{
         margin: 0;
         padding: 0;
     }
+
+    /*flexboxen i headeren*/
     header
     {
         display: flex;
@@ -231,11 +236,13 @@ footer a img{
         height: 100px;
     }
 
+    /*menupunkterne fra computer størrelse skal ikke være der*/
     .menu
     {
         display:none; 
     }
 
+    /*burgermenuens placering*/
    #navMobile
    {
         display: flex;
@@ -244,29 +251,34 @@ footer a img{
         margin-top: -78px;
         
    }
+
+   /*logoets placering*/
     #headerlogomobil 
     { 
         margin-left: 10px;
         width: 100%;
-        
 
     }  
 /*---------------Reklame-billede-afsnit-----------------------*/
 
+/*flexboksen i øverste afsnit skal være i column ved telefon størrelse*/
 .reklame{
     flex-direction: column;
 
 }
 
+/*billedet må ikke fylde mere end 100%*/
 .reklame img{
     max-width: 100%;
 }
 
+/*teksten skal være placeret i midten*/
 .reklametekst{
     margin: auto;
 }
 /*---------------Konkurrence-afsnit-----------------------*/
 
+/*konkurrence afsnittet skal være i column*/
 .konkurrence{
     flex-direction: column;
     height: 600px;
@@ -274,10 +286,12 @@ footer a img{
     
 }
 
+/*det skal være placeret i midten*/
 .konkurrence div{
     margin: 0px;
 }
 
+/*teksten skal blive mindre, når enhedens størrelse er mindre*/
 .konkurrence h1{
     font-size: 10vw;
     margin: 0px;
@@ -289,11 +303,13 @@ footer a img{
 
 /*---------------Cards-afsnit-----------------------*/
 
+/*cards skal være i column og sidde i midten*/
 .cards{
     flex-direction: column;
     align-items: center;
 }
 
+/*må ikke fylde mere end 100%*/
 .cards img{
     max-width: 100%;
 }

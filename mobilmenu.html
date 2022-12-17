@@ -14,7 +14,8 @@
 </head>
 
 <style>
-    /*--CREDIT ANIMISTA!! Ikke egen kode!! Her valgte vi at skrive css i html da det kun var gældende på den her side--*/
+    /*--CREDIT TIL ANIMISTA!! Her valgte jeg at skrive css i html da det kun var gældende på den her side--*/
+    /*menupunkterne og logoet kommer flyvende ind på siden oppfra og ned*/
     @media screen and (max-width: 768px)
     {
             .mobilmenu
@@ -69,7 +70,8 @@
                             opacity: 1;
                     }
             }
-    
+            
+            /*logoet og menupunkterne skal være i column i midten*/
             .mobilnav 
             {
                     display: flex;
@@ -86,6 +88,7 @@
                     margin-bottom: -30px;
             }
 
+            /*logoets størrelse og placering*/
             #logo{
                 width: 70%;
                 margin: auto;
@@ -94,7 +97,7 @@
             }
     }
     
-    /*Til laptop skal der ikke være mobilnav*/
+    /*Til laptop skal der ikke være mobilmenu*/
     @media screen and (min-width: 767px)
     {
             .mobilmenu{display: none;}
