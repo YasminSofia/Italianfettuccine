@@ -272,11 +272,14 @@
 }
 
 /*---------------KONKURRENCE TILMELDT SIDEN------------------------------*/
+
+/*baggrundsfarve til siden*/
 .konkurrencetilmeldt
 {
     background-color: #9bc1f4;
 }
 
+/*billedets placering*/
 .konkurrencetilmeldt img
 {  
     margin-top: 30px;
@@ -286,12 +289,14 @@
     align-content: center;
 }
 
+/*tekstens layout*/
 .konkurrencetilmeldt h1
 {
     color: #967147;
     font-size: 50pt;
     font-family: 'Arima Madurai', cursive;
 }
+
 
 .emailcontainer
 {
@@ -320,6 +325,7 @@
     color: #764207;
 }
 
+/*tekstens layout*/
 #tekstmail p
 {
     font-family: myriad-pro, sans-serif;
@@ -330,6 +336,7 @@
     padding-bottom: 20px;
 }
 
+/* "tilbage til forsiden" knappens udseende*/
 .konkurrencetilmeldt button
 {
     font-size: 16px;
@@ -378,8 +385,8 @@
 
     .overskrift p{
         font-size: 3vw;
-        margin-left: 3px;
-        margin-right: 3px;
+        margin-left: 3.5px;
+        margin-right: 3.5px;
     }
 
     /*billedet skal være i column i midten, og må max fylde 100%*/
@@ -438,6 +445,8 @@
     .info h2, .afsnitmobil h2{
         font-size: 5vw;
         margin: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .info p, .afsnitmobil p{
@@ -446,6 +455,8 @@
         margin: 0px;
         max-width: 100%;
         margin-bottom: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     /*dette afsnit fra laptop skal ikke vises på telefon*/
