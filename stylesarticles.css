@@ -429,7 +429,7 @@
     }
 
     /*skal være i midten og må kun fylde 100%*/
-    .groensagermobil, .urtekrammobil{
+    .groensagermobil img, .urtekrammobil img{
         max-width: 100%;
         margin: auto;
         
